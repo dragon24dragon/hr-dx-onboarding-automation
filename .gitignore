@@ -1,0 +1,40 @@
+# ── clasp（手元と Google をつなぐ設定。スクリプトIDが入るので共有しない）──
+.clasp.json
+.clasprc.json
+
+# ── 認証情報・秘密の情報（絶対に記録しない）──
+*.pem
+*.key
+credentials.json
+client_secret*.json
+token.json
+.env
+.env.*
+
+# ── Node.js（今後ツールを入れたとき用）──
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ── OS が勝手に作るファイル ──
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ── エディタが作る作業用ファイル ──
+.vscode/
+.idea/
+*.swp
+*~
+
+# ── 一時ファイル・ログ ──
+*.log
+*.tmp
+tmp/
+
+# ── AI開発用の設定（公開しない）──
+CLAUDE.md
+.claude/
